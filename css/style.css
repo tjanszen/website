@@ -1,0 +1,134 @@
+/*
+Global styles
+
+color: #999;
+font-family: 'Open Sans';
+
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+/* HOME */
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+}
+
+.content-wrapper{
+	width:850px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.name{
+	width:100%;
+	text-align: center;
+	vertical-align: center;
+	margin-top:180px;
+
+	color:#999;
+	font-size: 3em;
+	font-weight: 400;
+}
+
+.myname{
+	transition: 0.3s;
+}
+
+.menu{
+	width:100%;
+	margin-top: 2.5em;
+}
+
+.menu ul{
+	text-align: center;
+}
+
+.menu li{
+	display: inline-block;
+	padding:1em 2em;
+}
+
+.menu li a{
+	text-decoration: none;
+	color:#999;
+	font-size: 1.3em;
+	transition:0.3s;
+}
+
+.menu li a:hover{
+	color:#ea6060;
+}
+
+.social{
+	width:100%;
+	margin-top: 10em;
+}
+
+.social ul{
+	text-align: center;
+}
+
+.social li{
+	display: inline;
+	
+}
+
+.social a{
+	color:#475258;
+	padding: 0 5em;
+	transition:0.3s;
+}
+
+.social a:hover{
+	color:#ea6060;
+}
+
+.social a:last-child{
+	padding-right: 0;
+}
+
+/* ABOUT */
+
+.nav{
+	position: relative;
+	margin-top: 1em;
+	padding:.2em;
+}
+
+.nav-name{
+	position: absolute;
+	top:0;
+	left:0;
+	color:#999;
+	font-size: 2em;
+	padding:.3em;
+	border-left: 1px solid #999;
+	border-right:1px solid #999;
+}
+
+.about-section{
+	margin-top: 100px;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
