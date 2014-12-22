@@ -93,26 +93,52 @@ body{
 /* ABOUT */
 
 .nav{
-	position: relative;
-	margin-top: 1em;
-	padding:.2em;
+	position:relative;
+	width:100%;
+	height:5em;
 }
 
 .nav-name{
 	position: absolute;
-	top:0;
+	top:.5em;
 	left:0;
-	color:#999;
-	font-size: 2em;
-	padding:.3em;
+	padding:1em;
 	border-left: 1px solid #999;
 	border-right:1px solid #999;
 }
 
-.about-section{
-	margin-top: 100px;
-	border: 1px solid black;
+.nav-name a{
+	text-decoration: none;
+	color:#999;
+	font-size: 2em;
 }
+
+.about-section{
+	width:100%;
+	margin-top: 7em;
+	text-align:center;
+}
+
+.about-title{
+	color:#999;
+	font-size: 2.5em;
+	font-weight: 400;
+}
+
+.about-desc ul{
+	width:60%;
+	margin:2em auto 0 auto;
+}
+
+.about-desc ul li{
+	text-align: left;
+	color:#999;
+	font-size: 1em;
+	font-weight: 400;
+	padding:.5em .7em;
+}
+
+
 
 
 
