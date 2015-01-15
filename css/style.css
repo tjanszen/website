@@ -152,6 +152,7 @@ body{
 	text-decoration: none;
 	color:#737373;
 	font-size: 2em;
+	font-weight: 300;
 	transition: 0.3s;
 }
 
@@ -169,7 +170,7 @@ body{
 	color:#4A4A4A;
 	padding: 0 .3em;
 	font-size: 2.5em;
-	font-weight: 400;
+	font-weight: 300;
 	width:100%;
 }
 
@@ -213,7 +214,7 @@ ul li{
 	color:#737373;
 	font-size: .9em;
 	line-height: 1.5em;
-	font-weight: 400;
+	font-weight: 300;
 	padding:.5em .7em;
 }
 
@@ -226,7 +227,6 @@ ul li{
 	color:#737373;
 	font-size: .9em;
 	line-height: 1.5em;
-	font-weight: 400;
 	text-align: left;
 	width:80%;
 	margin:2em auto 0 auto;
@@ -245,7 +245,7 @@ ul li{
 	color:#4A4A4A;
 	padding: 0em .3em 0 .3em;
 	font-size: 2.5em;
-	font-weight: 400;
+	font-weight: 300;
 	text-align: center;
 }
 
@@ -270,7 +270,6 @@ ul li{
 	text-align: left;
 	text-decoration: none;
 	color:#737373;
-	font-weight: 400;
 	line-height: 2em;
 	padding: .4em 0;
 }
@@ -283,7 +282,6 @@ ul li{
 	text-align: left;
 	text-decoration: none;
 	color:#737373;
-	font-weight: 400;
 	line-height: 2em;
 	padding: .4em 0;
 }
