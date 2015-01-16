@@ -66,15 +66,21 @@ body{
 	color:#4A4A4A;
 	font-size: 3em;
 	font-weight: 400;
+
+	-webkit-animation: fade 2s; /* Chrome, Safari, Opera */ 
+    animation: fade 2s;
 }
 
 .myname{
 	transition: 0.3s;
+
 }
 
 .menu{
 	width:100%;
 	margin-top: 4em;
+	-webkit-animation: menufade 2s; /* Chrome, Safari, Opera */ 
+    animation: menufade 2s;
 }
 
 .menu ul{
@@ -114,6 +120,8 @@ body{
 .social a{
 	color:#475258;
 	padding: 0 4em;
+	-webkit-animation: fade 3s; /* Chrome, Safari, Opera */ 
+    animation: fade 3s;
 }
 
 .social a i{
@@ -164,9 +172,10 @@ body{
 	width:100%;
 	margin-top: 4em;
 	text-align:center;
+	position: relative;
 }
 
-.main-title{
+.about-title{
 	color:#4A4A4A;
 	padding: 0 .3em;
 	font-size: 2.5em;
@@ -174,46 +183,52 @@ body{
 	width:100%;
 }
 
-.about-desc-unclicked, .about-desc-clicked, .about-details-unclicked, .about-detailed-clicked{
-	transition: .5s ease-in-out;
-	-moz-transition:all 0.5s ease-in-out;
-    -webkit-transition:all 0.5s ease-in-out;
-    -o-transition:all 0.5s ease-in-out;
-}
+/*About Section*/
 
-.about-desc-unclicked{
-	width:85%;
+#about-section-wrapper{
+	width:80%;
 	margin:0 auto;
+	height:275px;
+	position: relative;
+	overflow: hidden;
 }
 
-.about-desc-clicked{
-	width:49%;
-	float:left;
+#about-center{
+	position: absolute;
+	top:50px;
+	left:0;
+	height:275px;
+	background: white;
+	z-index: 100;
 }
 
-.about-details-unclicked{
-	width:49%;
-	height:auto;	
-	float:right;
-	margin-right:-500px;
+.full{
+	width:100%;
 	
 }
 
-.about-details-clicked{
-	width:49%;
-	height:auto;
-	float:right;
+.half{
+	width:50%;
+	height:425px;
+	
+	transition: 1.5s;
 }
 
-ul{
-	margin:2em auto 0 auto;
+
+#about-right{
+	position: absolute;
+	top:50px;
+	right:0px;
+	width:50%;
+	height:425px;
+	z-index: 50;
 }
 
-ul li{
+ul li, #about-right-text{
 	text-align: left;
 	color:#737373;
 	font-size: .9em;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	font-weight: 300;
 	padding:.5em .7em;
 }
@@ -223,18 +238,12 @@ ul li{
 	color:#ea6060;
 }
 
-#inner-about-details{
-	color:#737373;
-	font-size: .9em;
-	line-height: 1.5em;
-	text-align: left;
-	width:80%;
-	margin:2em auto 0 auto;
-	float:right;
-}
 
 /* about.html > books-sections */
-
+#about-body{
+	-webkit-animation: fade 2s; /* Chrome, Safari, Opera */ 
+    animation: fade 2s;
+}
 #books-section{
 	width:100%;
 	clear:both;
@@ -308,6 +317,11 @@ ul li{
 	margin-left: 2em;
 }
 
+.ind-books-details a{
+	text-decoration: none;
+	color:#ea6060;
+}
+
 .ind-books-details:first-child{
 	margin-bottom: .5em;
 }
@@ -322,8 +336,18 @@ ul li{
 	
 }
 
+/*keyframe animations*/
 
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes fade {
+    0%   {opacity: 0;}
+    100% {opacity:1;}
+}
 
+/* Standard syntax */
+@keyframes fade {
+    0%   {opacity:0;}
+    100% {opacity:1;}
 
 
 
